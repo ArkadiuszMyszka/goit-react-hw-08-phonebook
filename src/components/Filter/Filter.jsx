@@ -15,10 +15,10 @@ export const Filter = () => {
 
   return (
     <div className={css.label_filter}>
-         <TextField id="standard-basic"  variant="standard" color="secondary"  margin="normal" size="normal" focused 
+         <TextField id="standard-basic"  variant="standard" color="secondary"  margin="normal" size="normal" focused
         type="text"
         name="filter"
-        placeholder="Find contacts by name"
+        placeholder="Search by name"
         value={filter}
         onChange={handleChange}
       />

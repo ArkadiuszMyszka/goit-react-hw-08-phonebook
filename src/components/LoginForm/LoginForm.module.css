@@ -11,22 +11,22 @@
 .button_login {
 margin-top: 50px;
     height: 50px;
-    width: 100%;
+    width: 50%;
     border-radius: 50px;
     position: relative;
     overflow: hidden;
     font-weight: 500px;
     font-size: 20px;
-    color: #fff;
-    background: linear-gradient(to left, #a445b2, #fa4299);
+    color: #08e0f0;
+    background: linear-gradient(to left, #a50d1a, #ee8309);
 }
 
 .button_login:hover {
-background: linear-gradient(to right, #a445b2, #fa4299);
+background: #333;
 }
 .wrapper {
     max-width: 390px;
-    background: #fff;
+    background: #07f5e1;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 15px 20px rgba(0,0,0,0.1);

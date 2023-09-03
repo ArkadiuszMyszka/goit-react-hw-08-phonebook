@@ -11,7 +11,7 @@ export const RegisterForm = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    
+
     const form = e.currentTarget;
   dispatch(
     register({
@@ -20,15 +20,15 @@ export const RegisterForm = () => {
       password: form.elements.password.value,
     })
     );
-    
+
     form.reset();
-  
+
   };
 
   return (
     <div className={css.wrapper}>
-      <div className={css.title}>Register Form</div>
-      
+      <div className={css.title}>Register</div>
+
     <form className={css.form} onSubmit={handleSubmit} autoComplete="off">
       <label className={css.field}>
         <TextField id="standard-basic"  variant="standard" color="secondary"  margin="normal" size="normal" focused type="text" name="name"  placeholder="Username"/>

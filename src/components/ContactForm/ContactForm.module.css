@@ -7,33 +7,31 @@
 }
 
 .input {
-  color: #333;
+  color: #d10a0a;
   margin-top: 20px;
   font-size: 20px;
   padding: 10px;
-  border-radius: 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   display: block;
-  box-shadow: inset 0px 0px 8px 0px #33333347;
 }
 
 .button_add {
   font-size: 20px;
-  font-weight: 800;
-  color: black;
+  font-weight: 600;
+  color: rgb(3, 79, 85);
   margin-top: 30px;
   padding: 15px;
   border: none;
   box-shadow: 0 0 2px #333;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #13caeb;
   border-radius: 5px;
   transition-duration: 400ms;
 }
 
 .button_add:hover {
-  transform: scale(1.1);
-    background-color: rgba(255, 0, 0, 0.2);
-  
+
+    background-color: rgba(6, 243, 203, 0.8);
+
 }
