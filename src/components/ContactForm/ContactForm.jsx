@@ -26,7 +26,7 @@ export const ContactForm = () => {
 
     const existingContact = contacts.find(contact => contact.name === name);
 
-   if (existingContact) {
+    if (existingContact) {
       alert('Contact already exists');
     } else {
       dispatch(addContact({ nameText: name, numberText: number }));

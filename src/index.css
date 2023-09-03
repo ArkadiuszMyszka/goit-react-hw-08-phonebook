@@ -5,14 +5,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
--webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-background: #f05555;
-display: grid;
-height: 100%;
-place-items: center;
-
-
+  background: #f05555;
+  display: grid;
+  height: 100%;
+  place-items: center;
 }
 
 code {

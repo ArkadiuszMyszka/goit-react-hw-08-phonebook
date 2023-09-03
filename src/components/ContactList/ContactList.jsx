@@ -9,7 +9,9 @@ export const ContactList = ({ contacts, handleDelete }) => (
         <span className={css.name_contact}>
           {contact.name} {contact.number}
         </span>
-          <Button variant="contained" size="small"
+        <Button
+          variant="contained"
+          size="small"
           type="button"
           onClick={() => handleDelete(contact.id)}
         >

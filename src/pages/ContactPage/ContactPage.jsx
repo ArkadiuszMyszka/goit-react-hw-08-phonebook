@@ -4,9 +4,12 @@ import { Helmet } from 'react-helmet';
 import { ContactForm } from 'components/ContactForm/ContactForm';
 import { Filter } from 'components/Filter/Filter';
 import { ContactList } from 'components/ContactList/ContactList';
-import { getContacts, getFilter, selectLoading } from 'redux/contacts/selectors';
+import {
+  getContacts,
+  getFilter,
+  selectLoading,
+} from 'redux/contacts/selectors';
 import { delContact, fetchContacts } from 'redux/contacts/actions';
-
 
 export const ContactPage = () => {
   const dispatch = useDispatch();
@@ -37,10 +40,11 @@ export const ContactPage = () => {
       </Helmet>
       <ContactForm />
       <div>{isLoading && 'Request in progress, please wait'}</div>
-      <Filter/>
+      <Filter />
       <ContactList
-      contacts={getFilteredContacts()}
-      handleDelete={handleDelete}/>
+        contacts={getFilteredContacts()}
+        handleDelete={handleDelete}
+      />
     </>
   );
-}
+};

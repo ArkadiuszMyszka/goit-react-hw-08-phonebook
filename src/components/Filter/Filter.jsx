@@ -1,9 +1,8 @@
-
 import { useDispatch, useSelector } from 'react-redux';
 import { getFilter } from '../../redux/contacts/selectors';
 import { setFilter } from '../../redux/contacts/actions';
 import { TextField } from '@mui/material';
-import css from "./Filter.module.css"
+import css from './Filter.module.css';
 
 export const Filter = () => {
   const dispatch = useDispatch();
@@ -15,7 +14,13 @@ export const Filter = () => {
 
   return (
     <div className={css.label_filter}>
-         <TextField id="standard-basic"  variant="standard" color="secondary"  margin="normal" size="normal" focused
+      <TextField
+        id="standard-basic"
+        variant="standard"
+        color="secondary"
+        margin="normal"
+        size="normal"
+        focused
         type="text"
         name="filter"
         placeholder="Search by name"
